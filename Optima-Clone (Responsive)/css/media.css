@@ -1,0 +1,156 @@
+/* XL */
+
+@media(max-width:1399px){
+	.container{
+		max-width:1140px;
+	}
+}
+
+/* LG */
+
+@media(max-width:1199px){
+	.container{
+		max-width:991px;
+	}
+	.col-lg-12{
+		width:100%;
+	}
+	.col-lg-6{
+		width:50%;
+	}
+	/* QUALITY */
+	
+	.quality h4, .quality p{
+		display:none;
+	}
+	/* WHAT-WE-DO */
+	.what-do-img .items{
+		margin-bottom:20px;
+	}
+}
+
+/* MD */
+
+@media(max-width:991px){
+	.container{
+		max-width:720px;
+	}
+	.justify-md-between{
+		justify-content:space-between;
+	}
+	.col-md-12{
+		width:100%;
+	}
+	.col-md-4{
+		width:33.33%;
+	}
+	.col-md-3{
+		width:25%;
+	}
+	.col-md-6{
+		width:50%;
+	}
+	
+	/* HEADER */
+	
+	header nav{
+		flex-grow:0;
+	}
+	header nav ul:first-child{
+		position:absolute;
+		top:100%;
+		left:0;
+		right:0;
+		flex-direction:column;
+		background-color:black;
+		margin:0;
+		display: none;
+	}
+	header nav ul:first-child li{
+		padding:10px 10px;
+	}
+	header nav .ri-menu-line{
+		display:block;
+	}
+	header nav .ri-grid-fill{
+		display:none;
+	}
+	header nav .ri-close-large-line{
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		color: white;
+	}
+	
+	/* EGNEERING SERVICE */
+	.eng-service .service-centent{
+		margin:0;
+	}
+	
+	/* ENGINEERING PORTFOLIO */
+	.eng-portfolio .protfolio-inner{
+		margin-bottom:25px;
+	}
+	.portfolio-items p{
+		display:none;
+	}
+	
+	/* TECHNICAL ADVANCES */
+	.advances .advances-items img{
+		height:650px;
+	}
+}
+
+/* SM */
+
+@media(max-width:767px){
+	.container{
+		max-width:540px;
+	}
+	header nav ul:last-child li:last-child{
+		display:none;
+	}
+	.col-sm-12{
+		width:100%;
+	}
+	.col-sm-6{
+		width:50%;
+	}
+	
+	/* OUR VALUATION */
+	.valuation .valuation-items h2{
+		font-size:100px;
+	}
+	
+	/* TECHNICAL ADVANCES */
+	.advances .advances-items img{
+		height:450px;
+	}
+	
+	/* BLOG & ARTICLES */
+	.blogs-inner .blogs-items{
+		margin-bottom:30px;
+	}
+	
+	/* footer */
+	.footer-items{
+		margin-bottom:50px;
+	}
+}
+
+/* XS */
+
+@media(max-width:575px){
+	.container{
+		max-width:100%;
+	}
+	.col-xs-12{
+		width:100%;
+	}
+	
+	/* ENGINEERING PORTFOLIO */
+	.eng-portfolio h2, h4{
+		margin-left:20px;
+	}
+}
