@@ -17,37 +17,6 @@ This is a modern and responsive **Engineering & Industrial Landing Page** design
 
 ---
 
-## 📂 Project Structure
-
-Engineering-Landing-Page/
-│
-├── index.html # Main HTML structure
-├── css/
-│ ├── style.css # Core styling
-│ └── media.css # Responsive styles (if any)
-├── fonts/
-│ ├── poppins/ # Custom font
-│ └── remixicon/ # Remix icon font
-├── img/
-│ ├── logo.webp # Logo image
-│ ├── quality.jpg # Banner/hero section
-│ ├── service-img-1.jpg # Service section image
-│ ├── service-img-2.jpg
-│ ├── service-items-.webp # Service logos
-│ ├── protfolio-.jpg # Portfolio images
-│ ├── advances-.jpg # Advances section
-│ └── blogs-.jpg # Blog article images
-├── js/
-│ ├── jquery-3.7.1.min.js # jQuery library
-│ └── custom.js # Placeholder for JavaScript (if used)
-└── README.md # This documentation
-
-yaml
-Copy
-Edit
-
----
-
 ## 🧱 Sections Overview
 
 ### ✅ Header
