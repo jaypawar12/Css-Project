@@ -431,7 +431,7 @@ p {
 
 /* footer */
 footer {
-    width: 1580px;
+    width: auto;
     height: 675px;
     background-color: #222222;
     padding: 110px 0;
